@@ -1,9 +1,9 @@
 # OpenClaw Ecosystem — Master Context for ChatGPT
 
-> Auto-generated 2026-03-25T04:11:36-07:00. Do not edit manually.
+> Auto-generated 2026-03-25T04:21:14-07:00. Do not edit manually.
 > For live code, use the GitHub MCP connector to read repos directly.
 
-Generated: 2026-03-25T04:11:36-07:00
+Generated: 2026-03-25T04:21:14-07:00
 Machine: Jordan's MacBook Pro M2 Max (96GB)
 User: nayslayer
 
@@ -1163,7 +1163,7 @@ pytest-asyncio>=0.23
 ### openclaw
 ```
 Branch: feat/intel-signal-tabs
-Last commit: f5d8066 auto: 2026-03-25 04:00 state snapshot
+Last commit: 9f3f52d Gonzo narration overhaul: trading, research, all 3 instances
 Uncommitted files: 10
 Remote: https://github.com/nayslayer143/openclaw.git
 ```
@@ -1287,5 +1287,5 @@ Remote: https://github.com/nayslayer143/shiny-new.git
 ```
 
 ---
-End of context. Generated 2026-03-25T04:11:36-07:00.
+End of context. Generated 2026-03-25T04:21:14-07:00.
 For live code, use GitHub MCP connector -> github.com/nayslayer143/openclaw
