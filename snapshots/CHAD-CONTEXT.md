@@ -1,9 +1,9 @@
 # OpenClaw Ecosystem — Master Context for ChatGPT
 
-> Auto-generated 2026-03-25T14:07:00-07:00. Do not edit manually.
+> Auto-generated 2026-03-25T15:07:00-07:00. Do not edit manually.
 > For live code, use the GitHub MCP connector to read repos directly.
 
-Generated: 2026-03-25T14:07:00-07:00
+Generated: 2026-03-25T15:07:00-07:00
 Machine: Jordan's MacBook Pro M2 Max (96GB)
 User: nayslayer
 
@@ -254,6 +254,7 @@ OpenClaw is the operator shell for Jordan's web-based businesses. Claude Code is
 ~/quantumentalclaw/execution
 ~/quantumentalclaw/execution/__init__.py
 ~/quantumentalclaw/execution/equity_wallet.py
+~/quantumentalclaw/execution/live_prices.py
 ~/quantumentalclaw/execution/paper_wallet.py
 ~/quantumentalclaw/execution/router.py
 ~/quantumentalclaw/feeds
@@ -1165,16 +1166,16 @@ pytest-asyncio>=0.23
 ### openclaw
 ```
 Branch: feat/intel-signal-tabs
-Last commit: 34d7670 auto: 2026-03-25 14:00 state snapshot
-Uncommitted files: 11
+Last commit: ca16004 auto: 2026-03-25 15:00 state snapshot
+Uncommitted files: 12
 Remote: https://github.com/nayslayer143/openclaw.git
 ```
 
 ### rivalclaw
 ```
 Branch: main
-Last commit: 05ba883 fix: reduce Telegram to hourly only — per-cycle alerts + 15-min pings removed
-Uncommitted files: 19
+Last commit: 9fd3b9d feat: 3 new strategies + wipeout protection — 16 total, chasing 10 winners
+Uncommitted files: 20
 Remote: https://github.com/nayslayer143/rivalclaw.git
 ```
 
@@ -1189,7 +1190,7 @@ Remote: https://github.com/nayslayer143/arbclaw.git
 ### quantumentalclaw
 ```
 Branch: main
-Last commit: 3f53cdf hourly: 2026-03-25 21:00 | $10,000 | 0W/28closed | $+0 | calm
+Last commit: f740295 hourly: 2026-03-25 22:00 | $2,563,488 | 87W/154closed | $+2,553,488 | calm
 Uncommitted files: 0
 Remote: https://github.com/nayslayer143/quantumentalclaw.git
 ```
@@ -1289,5 +1290,5 @@ Remote: https://github.com/nayslayer143/shiny-new.git
 ```
 
 ---
-End of context. Generated 2026-03-25T14:07:00-07:00.
+End of context. Generated 2026-03-25T15:07:00-07:00.
 For live code, use GitHub MCP connector -> github.com/nayslayer143/openclaw
