@@ -1,9 +1,9 @@
 # OpenClaw Ecosystem — Master Context for ChatGPT
 
-> Auto-generated 2026-03-26T05:07:01-07:00. Do not edit manually.
+> Auto-generated 2026-03-26T06:07:00-07:00. Do not edit manually.
 > For live code, use the GitHub MCP connector to read repos directly.
 
-Generated: 2026-03-26T05:07:01-07:00
+Generated: 2026-03-26T06:07:00-07:00
 Machine: Jordan's MacBook Pro M2 Max (96GB)
 User: nayslayer
 
@@ -1171,15 +1171,15 @@ pytest-asyncio>=0.23
 ### openclaw
 ```
 Branch: feat/inspector-gadget
-Last commit: e8c7f43 fix(inspector): persist stats red flags, CRITICAL code finding alert
-Uncommitted files: 13
+Last commit: 0d8974c auto: 2026-03-26 06:00 state snapshot
+Uncommitted files: 10
 Remote: https://github.com/nayslayer143/openclaw.git
 ```
 
 ### rivalclaw
 ```
 Branch: main
-Last commit: 8594611 daily report 2026-03-26 — day 3 | bal=$290975.506828048 pnl=$447217.46 trades=13265
+Last commit: 0bfd994 fix: add binary resolution for Kalshi and Polymarket trades
 Uncommitted files: 16
 Remote: https://github.com/nayslayer143/rivalclaw.git
 ```
@@ -1195,7 +1195,7 @@ Remote: https://github.com/nayslayer143/arbclaw.git
 ### quantumentalclaw
 ```
 Branch: main
-Last commit: 388cdfc hourly: 2026-03-26 12:00 | $89,773 | 10W/44closed | $+1,322 | calm
+Last commit: 989b528 hourly: 2026-03-26 13:00 | $10,696 | 9W/15closed | $+696 | calm
 Uncommitted files: 0
 Remote: https://github.com/nayslayer143/quantumentalclaw.git
 ```
@@ -1295,5 +1295,5 @@ Remote: https://github.com/nayslayer143/shiny-new.git
 ```
 
 ---
-End of context. Generated 2026-03-26T05:07:01-07:00.
+End of context. Generated 2026-03-26T06:07:00-07:00.
 For live code, use GitHub MCP connector -> github.com/nayslayer143/openclaw
