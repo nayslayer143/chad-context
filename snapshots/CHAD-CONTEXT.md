@@ -1,9 +1,9 @@
 # OpenClaw Ecosystem — Master Context for ChatGPT
 
-> Auto-generated 2026-03-29T05:07:00-07:00. Do not edit manually.
+> Auto-generated 2026-03-29T06:07:00-07:00. Do not edit manually.
 > For live code, use the GitHub MCP connector to read repos directly.
 
-Generated: 2026-03-29T05:07:00-07:00
+Generated: 2026-03-29T06:07:00-07:00
 Machine: Jordan's MacBook Pro M2 Max (96GB)
 User: nayslayer
 
@@ -50,9 +50,13 @@ OpenClaw is the operator shell for Jordan's web-based businesses. Claude Code is
 ~/openclaw/builds/ifauxto
 ~/openclaw/chatgpt-mcp
 ~/openclaw/cinema-lab
+~/openclaw/cinema-lab/.pytest_cache
+~/openclaw/cinema-lab/assets
 ~/openclaw/cinema-lab/builds
 ~/openclaw/cinema-lab/logs
 ~/openclaw/cinema-lab/remotion
+~/openclaw/cinema-lab/renders
+~/openclaw/cinema-lab/tests
 ~/openclaw/clawmpson-logs
 ~/openclaw/clawmpson-logs/.git
 ~/openclaw/clawmpson-logs/daily
@@ -78,6 +82,7 @@ OpenClaw is the operator shell for Jordan's web-based businesses. Claude Code is
 ~/openclaw/dashboard
 ~/openclaw/dashboard/.claude
 ~/openclaw/dashboard/.pytest_cache
+~/openclaw/dashboard/tests
 ~/openclaw/docs
 ~/openclaw/docs/superpowers
 ~/openclaw/doctor-claw
@@ -778,6 +783,78 @@ cat ~/openclaw/chatgpt-mcp/.terminal-insights.md
 | `CHATGP
 ```
 
+### ~/openclaw/cinema-lab/.pytest_cache/README.md
+```
+# pytest cache directory #
+
+This directory contains data from the pytest's cache plugin,
+which provides the `--lf` and `--ff` options, as well as the `cache` fixture.
+
+**Do not** commit this to version control.
+
+See [the docs](https://docs.pytest.org/en/stable/how-to/cache.html) for more information.
+
+```
+
+### ~/openclaw/cinema-lab/remotion/README.md
+```
+# Remotion video
+
+<p align="center">
+  <a href="https://github.com/remotion-dev/logo">
+    <picture>
+      <source media="(prefers-color-scheme: dark)" srcset="https://github.com/remotion-dev/logo/raw/main/animated-logo-banner-dark.apng">
+      <img alt="Animated Remotion Logo" src="https://github.com/remotion-dev/logo/raw/main/animated-logo-banner-light.gif">
+    </picture>
+  </a>
+</p>
+
+Welcome to your Remotion project!
+
+## Commands
+
+**Install Dependencies**
+
+```console
+npm install
+```
+
+**Start Preview**
+
+```console
+npm run dev
+```
+
+**Render video**
+
+```console
+npx remotion render
+```
+
+**Upgrade Remotion**
+
+```console
+npx remotion upgrade
+```
+
+## Docs
+
+Get started with Remotion by reading the [fundamentals page](https://www.remotion.dev/docs/the-fundamentals).
+
+## Help
+
+We provide help on our [Discord server](https://discord.gg/6VzzNDwUwV).
+
+## Issues
+
+Found an issue with Remotion? [File an issue here](https://github.com/remotion-dev/remotion/issues/new).
+
+## License
+
+Note that for some entities a company license is needed. [Read the terms here](https://github.com/remotion-dev/remotion/blob/main/LICENSE.md).
+
+```
+
 ### ~/openclaw/clawmpson-logs/README.md
 ```
 # Clawmpson Logs
@@ -1124,6 +1201,39 @@ This is the "architectural weight" being measured:
 
 ```
 
+### ~/openclaw/cinema-lab/remotion/package.json
+```
+{
+  "name": "remotion",
+  "version": "1.0.0",
+  "description": "My Remotion video",
+  "scripts": {
+    "dev": "remotion studio",
+    "build": "remotion bundle",
+    "upgrade": "remotion upgrade",
+    "lint": "eslint src && tsc"
+  },
+  "repository": {},
+  "license": "UNLICENSED",
+  "dependencies": {
+    "@remotion/cli": "4.0.441",
+    "react": "19.2.3",
+    "react-dom": "19.2.3",
+    "remotion": "4.0.441"
+  },
+  "devDependencies": {
+    "@remotion/eslint-config-flat": "4.0.441",
+    "@types/react": "19.2.7",
+    "@types/web": "0.0.166",
+    "eslint": "9.19.0",
+    "prettier": "3.8.1",
+    "typescript": "5.9.3"
+  },
+  "private": true
+}
+
+```
+
 ### ~/openclaw/doctor-claw/.next/package.json
 ```
 {"type": "commonjs"}
@@ -1282,15 +1392,15 @@ pytest-asyncio>=0.23
 ### openclaw
 ```
 Branch: main
-Last commit: 5a2769e auto: hourly sync 2026-03-29 11:47 UTC
-Uncommitted files: 7
+Last commit: b16d630 auto: 2026-03-29 06:00 state snapshot
+Uncommitted files: 10
 Remote: 
 ```
 
 ### rivalclaw
 ```
 Branch: feat/kalshi-live-bridge
-Last commit: 5487d08 auto: hourly sync 2026-03-29 11:47 UTC
+Last commit: 388a9fd auto: hourly sync 2026-03-29 12:47 UTC
 Uncommitted files: 3
 Remote: 
 ```
@@ -1306,7 +1416,7 @@ Remote: https://oauth2:glpat-gpKuP2MCJ523PLVy2Rez7mM6MQpvOjEKdTpsMmJnZg8.01.170u
 ### quantumentalclaw
 ```
 Branch: main
-Last commit: d28b598 hourly: 2026-03-29 12:00 | $10,000 | 0W/0closed | $+0 | quiet
+Last commit: d9381d5 hourly: 2026-03-29 13:00 | $10,000 | 0W/0closed | $+0 | quiet
 Uncommitted files: 0
 Remote: https://oauth2:glpat-gpKuP2MCJ523PLVy2Rez7mM6MQpvOjEKdTpsMmJnZg8.01.170uc249y@gitlab.com/jordan291/quantumentalclaw.git
 ```
@@ -1406,5 +1516,5 @@ Remote: https://github.com/nayslayer143/shiny-new.git
 ```
 
 ---
-End of context. Generated 2026-03-29T05:07:00-07:00.
+End of context. Generated 2026-03-29T06:07:00-07:00.
 For live code, use GitHub MCP connector -> github.com/nayslayer143/openclaw
